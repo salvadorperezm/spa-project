@@ -6,7 +6,7 @@ import getHash from "../utils/getHash";
 import resolveRoutes from "../utils/resolveRoutes";
 
 const routes = {
-  "/": Home,
+  "/spa-project/": Home,
   "/:id": Character,
   "/contact": "Contact",
 };
